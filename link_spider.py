@@ -13,7 +13,7 @@ class LinksTextSpider(scrapy.Spider):
             # url = kwargs.get('url')
             # if not url:
             #     raise ValueError("No URL given")
-            self.start_urls = ['https://linktr.ee/basivibe', 'https://linktr.ee/HonorHouse','https://linktr.ee/ftntwitter', 'https://linktr.ee/georgejohnsons']
+            self.start_urls = [''' input your test urls here''']
             self.headers = {"origin": "https://linktr.ee","referer": "https://linktr.ee"}
             self.apiurl = "https://linktr.ee/api/profiles/validation/gates"
 
